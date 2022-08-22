@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #ffffff;
+}
+
+
+h1{
+	background-color:transparent;
+	color:white;
+}
+h2{
+	background-color:transparent;
+	color:white;
+}
+h3{
+  background-color:transparent;
+  color:white;
+}
+div{
+	background-color:transparent;
+	color:white;
+}
