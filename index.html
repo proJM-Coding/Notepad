@@ -1,9 +1,29 @@
-<!Doctype Html>
-<Html>
-<Head>
-<Body>
-<form>
-<input type="text" name="Notepad" size="150">
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>My Title</title>
+<style type="text/css">
+    .textwidth {width: 80%; }
+ .labelwidth {width: 10%; }
+ .inputwidth {width: 100%; }
+</style>
+</head>
+<body>
+<form id="form1" runat="server" style="width: 80%">
+  <fieldset>  
+    <legend>Prospect Details</legend> 
+ <table style="width: 100%">
+ <tr>
+  <td class="labelwidth"><label  for="Name">Name:</label></td>
+  <td class="textwidth"><asp:TextBox cssclass="inputwidth" id="txName" runat="server" ReadOnly="true" ></asp:TextBox></td>
+ </tr>
+ <tr>
+  <td class="labelwidth"><label for="EntityId">Entity Id:</label></td>
+  <td class="textwidth"><asp:TextBox id="drpEntityIdTextbox" cssclass="inputwidth"  runat="server" ReadOnly="true" ></asp:TextBox></td>
+ </tr>
+ </table>
+  </fieldset>
 </form>
-</Body>
-</Html>
+</body>
+</html>
