@@ -1,22 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Notepad</title>
-    <style>
-        html,
-        body,
-        textarea 
-        {
-            margin: 0;
-            padding: 0;
-            border: none;
-            width: 100%;
-            height: 100%; 
-        }
-    </style>
-</head>
-    
-<body>
-    <textarea name="" id="" cols="30" rows="10"></textarea>
-</body>
-</html>
+html,
+body,
+textarea {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+textarea {
+    /*textarea default border width is 2px, subtract the border width from both top & bottom or left & right*/
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+}
