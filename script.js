@@ -1,1 +1,1 @@
-
+object.onclick = function(){myScript};
